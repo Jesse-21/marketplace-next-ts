@@ -28,7 +28,7 @@ const ListingPage: NextPage = () => {
 
   // Initialize the marketplace contract
   const marketplace = useMarketplace(
-    "0x00Ae2A1b5E6dd2C69F7E9F08c777b74fe46b1ea6" // Your address here
+    "0x5FB98169cC6C1f3bB001ECAAfCD3c65ebACc10aA" // Your address here
   );
 
   // When the component mounts, ask the marketplace for the listing with the given listingId
